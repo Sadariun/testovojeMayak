@@ -1,7 +1,7 @@
 1.  Архитектура компонента
 
 ```
-QuestionCard(
+QuestionCard
 ├── QuestionStem (TipTapRenderer + KaTeX)
 ├── AnswerOptions (RadioGroup для single-select)
 ├── ActionBar
@@ -38,7 +38,7 @@ CheckButton получает дебаунс 0.3 секунды
 
 Часть 2. Псевдокод логики
 
-///
+```
 2.1 Инициализация состояния
 state = {
 selectedAnswer: null,
@@ -90,7 +90,7 @@ nextButtonVisible = isChecked
 
 // Рендер explanation только если:
 showExplanation = isChecked AND explanationExists
-///
+```
 
 Часть 3. Edge cases и UX
 
@@ -134,7 +134,7 @@ max-height: 400px с overflow-y: auto
 
 6 - Пользователь в demo режиме
 
-jsx
+```
 <DemoOverlay>
 <BlurredContent>
 <Explanation content={explanation} />
@@ -149,3 +149,4 @@ jsx
     </UpgradeButton>
   </DemoMessage>
 </DemoOverlay>
+```
