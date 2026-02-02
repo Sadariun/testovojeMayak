@@ -1,14 +1,14 @@
 1.  Архитектура компонента
 
-//
-QuestionCard
+```
+QuestionCard(
 ├── QuestionStem (TipTapRenderer + KaTeX)
 ├── AnswerOptions (RadioGroup для single-select)
 ├── ActionBar
 │ ├── CheckButton
 │ └── NextButton (появляется после проверки)
 └── Explanation (conditional render)
-//
+```
 
 Хранение состояния:
 
