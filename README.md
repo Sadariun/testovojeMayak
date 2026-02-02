@@ -36,7 +36,7 @@ CheckButton получает дебаунс 0.3 секунды
 
 После того как сервер ответит, обновляем состояние только для текущего questionId
 
-Часть 2. Псевдокод логики
+2. Псевдокод логики
 
 ```
 2.1 Инициализация состояния
@@ -92,7 +92,7 @@ nextButtonVisible = isChecked
 showExplanation = isChecked AND explanationExists
 ```
 
-Часть 3. Edge cases и UX
+3. Edge cases и UX
 
 1 - Explanation отсутствует
 
